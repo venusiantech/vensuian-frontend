@@ -17,7 +17,7 @@ export default function ServiceDetail4() {
 		<>
 
 			<Layout headerStyle={11} footerStyle={11}>
-				<Header11 scroll={scroll} />
+				{/* <Header11 scroll={scroll} /> */}
 
 				{/* prettier-ignore */}
 				{/* Blog Sidebar Section 1 */}
