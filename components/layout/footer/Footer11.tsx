@@ -10,7 +10,7 @@ export default function Footer11() {
 						<div className="box-newsletter-footer">
 							<div className="newsletter-left">
 								<div className="mb-3">
-									<Link href="#"><img src="/assets/imgs/template/logo-footer-3.svg" /></Link>
+									<Link href="#"><img src="/assets/imgs/template/venusian_whole.png" height={80} /></Link>
 								</div>
 								<span className="sub-heading-sm color-white"> Digital Business Consulting Agency </span>
 							</div>
