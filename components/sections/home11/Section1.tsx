@@ -15,7 +15,7 @@ export default function Section1() {
 									<path d="M60.3536 4.35355C60.5488 4.15829 60.5488 3.84171 60.3536 3.64645L57.1716 0.464466C56.9763 0.269204 56.6597 0.269204 56.4645 0.464466C56.2692 0.659728 56.2692 0.976311 56.4645 1.17157L59.2929 4L56.4645 6.82843C56.2692 7.02369 56.2692 7.34027 56.4645 7.53553C56.6597 7.7308 56.9763 7.7308 57.1716 7.53553L60.3536 4.35355ZM0 4.5H60V3.5H0V4.5Z" fill="#0055FF" />
 								</svg>
 							</p>
-							<h1 className="display-ag-2xl gray-1100 mb-3" data-aos="fade-up"><span>Consulting with Clarity</span> Leading with <strong className="primary-1200">Confidence</strong></h1>
+							<h1 className="display-ag-2xl gray-1100 mb-3" data-aos="fade-up"><span>Consulting with Clariity</span> Leading with <strong className="primary-1200">Confidence</strong></h1>
 							<p className="paragraph-rubik-r gray-800 desc-banner" data-aos="fade-up">Education is the key to studeny Unlock your potential through learning. Expand your horizons with the most</p>
 							<div className="form-search" data-aos="fade-up">
 								<form className="form" action="#">
