@@ -153,7 +153,7 @@ export default function Header11({ scroll, isMobileMenu, handleMobileMenu, handl
 					<div className="box-contactus mb-30">
 						<h5 className="title-contactus neutral-1000 mb-3">Contact Us</h5>
 						<div className="contact-info">
-							<p className="address-2 text-md-medium neutral-1000"><strong>Address: </strong>Germany —785 15h Street, Office 478 Berlin, De 81566</p>
+							<p className="address-2 text-md-medium neutral-1000"><strong>Address: </strong>Sharjah, UAE</p>
 							<p className="hour-work-2 text-md-medium neutral-1000"><strong>Hours: </strong>MON-FRI: 9 AM – 22 PM, SAT: 9 AM – 20 PM</p>
 							<p className="hour-work-2 text-md-medium neutral-1000"><strong>Phone: </strong>+1 (212) 621-5896</p>
 							<p className="hour-work-2 text-md-medium neutral-1000"><strong>Email: </strong>info@venusian.tech</p>

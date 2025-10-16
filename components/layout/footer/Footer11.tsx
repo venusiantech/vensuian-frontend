@@ -72,11 +72,11 @@ export default function Footer11() {
 									<div className="col-lg-3 col-md-6">
 										<h3 className="text-footer pb-1">Useful Link</h3>
 										<div className="d-flex flex-column align-items-start">
-											<Link className="hover-effect paragraph-base grey-100 pt-4" href="#">Company</Link>
-											<Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Careers</Link>
-											<Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Press media</Link>
+											{/* <Link className="hover-effect paragraph-base grey-100 pt-4" href="#">Company</Link> */}
+											{/* <Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Careers</Link> */}
+											{/* <Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Press media</Link> */}
 											<Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Our Blog</Link>
-											<Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Privacy Policy</Link>
+											{/* <Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Privacy Policy</Link> */}
 										</div>
 									</div>
 									<div className="col-lg-3 col-md-6">

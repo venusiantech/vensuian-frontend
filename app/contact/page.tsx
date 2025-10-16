@@ -50,7 +50,7 @@ export default function Contact() {
 									</p>
 									<div className="sub-heading-ag-xl color-black d-flex align-items-center mb-4">
 										<img src="/assets/imgs/pages/contact/address.png" alt="Email" className="me-3" />
-										<p className="mb-0">Germany —785 15h Street, Office 478 Berlin, De 81566</p>
+										<p className="mb-0">Sharjah, UAE</p>
 									</div>
 								</div>
 							</div>
@@ -148,7 +148,7 @@ export default function Contact() {
 									</div>
 									<div className="card-info">
 										<h6 className="heading-ag-lg">Address</h6>
-										<p className="paragraph-rubik-r">Germany —785 15h Street, Office 478 Berlin, De 81566</p>
+										<p className="paragraph-rubik-r">Sharjah, UAE</p>
 										<Link href="#" className="paragraph-rubik-r">Check Location
 											<svg width={31} height={8} viewBox="0 0 31 8" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M30.3536 4.35356C30.5488 4.15829 30.5488 3.84171 30.3536 3.64645L27.1716 0.464468C26.9763 0.269206 26.6597 0.269206 26.4645 0.464468C26.2692 0.659731 26.2692 0.976313 26.4645 1.17158L29.2929 4L26.4645 6.82843C26.2692 7.02369 26.2692 7.34027 26.4645 7.53554C26.6597 7.7308 26.9763 7.7308 27.1716 7.53554L30.3536 4.35356ZM-4.37114e-08 4.5L30 4.5L30 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z" fill="currentColor" />
