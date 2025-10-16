@@ -34,7 +34,7 @@ export default function Project() {
 							<div className="col-lg-4">
 								<div className="card-project card-project-5">
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/project/project.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/project/project.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -55,7 +55,7 @@ export default function Project() {
 							<div className="col-lg-4">
 								<div className="card-project card-project-5">
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/project/project2.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/project/project2.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -76,7 +76,7 @@ export default function Project() {
 							<div className="col-lg-4">
 								<div className="card-project card-project-5">
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/project/project3.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/project/project3.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -97,7 +97,7 @@ export default function Project() {
 							<div className="col-lg-4">
 								<div className="card-project card-project-5">
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/project/project4.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/project/project4.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -118,7 +118,7 @@ export default function Project() {
 							<div className="col-lg-4">
 								<div className="card-project card-project-5">
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/project/project5.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/project/project5.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -139,7 +139,7 @@ export default function Project() {
 							<div className="col-lg-4">
 								<div className="card-project card-project-5">
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/project/project6.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/project/project6.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -185,7 +185,7 @@ export default function Project() {
 								<div className="col-lg-4 col-md-6">
 									<div className="card-blog card-blog-12">
 										<div className="card-image">
-											<Link href="#"><img src="/assets/imgs/pages/home12/news.png" alt="Vatech" /></Link>
+											<Link href="#"><img src="/assets/imgs/pages/home12/news.png" alt="Venusian" /></Link>
 											<span className="card-date">
 												<span className="heading-ag-3xl">22</span>
 												<span className="paragraph-rubik-r">FEB,2024</span>
@@ -206,7 +206,7 @@ export default function Project() {
 								<div className="col-lg-4 col-md-6">
 									<div className="card-blog card-blog-12">
 										<div className="card-image">
-											<Link href="#"><img src="/assets/imgs/pages/home12/news2.png" alt="Vatech" /></Link>
+											<Link href="#"><img src="/assets/imgs/pages/home12/news2.png" alt="Venusian" /></Link>
 											<span className="card-date">
 												<span className="heading-ag-3xl">22</span>
 												<span className="paragraph-rubik-r">FEB,2024</span>
@@ -227,7 +227,7 @@ export default function Project() {
 								<div className="col-lg-4 col-md-6">
 									<div className="card-blog card-blog-12">
 										<div className="card-image">
-											<Link href="#"><img src="/assets/imgs/pages/home12/news3.png" alt="Vatech" /></Link>
+											<Link href="#"><img src="/assets/imgs/pages/home12/news3.png" alt="Venusian" /></Link>
 											<span className="card-date">
 												<span className="heading-ag-3xl">22</span>
 												<span className="paragraph-rubik-r">FEB,2024</span>

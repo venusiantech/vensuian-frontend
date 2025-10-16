@@ -11,7 +11,7 @@ export default function Contact() {
 
 				{/* prettier-ignore */}
 				{/* Blog Sidebar Section 1 */}
-				<section className="box-faq-single-banner @@class">
+				<section className="box-faq-single-banner box-blog-single-banner">
 					<div className="box-faq-single-banner-inner">
 						<div className="container">
 							<h1 className="display-ag-2xl color-white">Contact Us</h1>
@@ -37,18 +37,18 @@ export default function Contact() {
 						</h1>
 						<div className="row">
 							<div className="col-lg-5">
-								<div className="box-contact-red">
-									<h3 className="heading-ag-xl color-white mb-3">Company info</h3>
-									<div className="paragraph-rubik-md-r color-white mb-4">Ignissimos ducimus qui blanditiis prae</div>
-									<p className="sub-heading-ag-xl color-white mb-4">
+								<div className="">
+										<h3 className="heading-ag-xl color-white mb-3">Company info</h3>
+									<div className="paragraph-rubik-md-r color-black mb-4">Venusian - Technology Solutions & Business</div>
+									<p className="sub-heading-ag-xl color-black mb-4">
 										<img src="/assets/imgs/pages/contact/email.png" alt="Email" className="me-3" />
-										info@email.com
+										info@venusian.tech
 									</p>
-									<p className="sub-heading-ag-xl color-white mb-4">
+									<p className="sub-heading-ag-xl color-black mb-4">
 										<img src="/assets/imgs/pages/contact/phone.png" alt="Email" className="me-3" />
 										+1 (212) 621-5896
 									</p>
-									<div className="sub-heading-ag-xl color-white d-flex align-items-center mb-4">
+									<div className="sub-heading-ag-xl color-black d-flex align-items-center mb-4">
 										<img src="/assets/imgs/pages/contact/address.png" alt="Email" className="me-3" />
 										<p className="mb-0">Germany —785 15h Street, Office 478 Berlin, De 81566</p>
 									</div>

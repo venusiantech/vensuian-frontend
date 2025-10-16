@@ -157,7 +157,7 @@ export default function ServiceDetail4() {
 								<div className="service-detail-2">
 									<div className="row">
 										<div className="col-lg-6">
-											<img src="/assets/imgs/pages/services/img2.png" alt="Vatech" />
+											<img src="/assets/imgs/pages/services/img2.png" alt="Venusian" />
 										</div>
 										<div className="col-lg-6">
 											<h2 className="heading-ag-3xl theme-heading-2 mb-4">Key Features For your Consulting Business</h2>
@@ -272,10 +272,10 @@ export default function ServiceDetail4() {
 									<p>when an unknown printer took a galley of type and scrambled it to make a type specimen bookhas a not only five centuries, but also the leap into electronic typesetting, remaining essentially unchan galley of type and scrambled it to make a type specimen book.</p>
 									<div className="row">
 										<div className="col-lg-6 col-md-6">
-											<img src="/assets/imgs/pages/services/news3.png" className="w-100" alt="Vatech" />
+											<img src="/assets/imgs/pages/services/news3.png" className="w-100" alt="Venusian" />
 										</div>
 										<div className="col-lg-6 col-md-6">
-											<img src="/assets/imgs/pages/services/news2.png" className="w-100" alt="Vatech" />
+											<img src="/assets/imgs/pages/services/news2.png" className="w-100" alt="Venusian" />
 										</div>
 									</div>
 									<p>when an unknown printer took a galley of type and scrambled it to make a type specimen bookhas a not only five centuries, but also the leap into electronic typesetting, remaining essentially unchan galley of type and scrambled it to make a type specimen book.</p>

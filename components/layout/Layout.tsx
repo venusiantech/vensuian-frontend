@@ -58,7 +58,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 			<Search isSearch={isSearch} handleSearch={handleSearch} />
 			<Offcanvas isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} />
 
-			<main>
+			<main style={{paddingTop: '20px'}}>
 				{breadcrumbTitle && <Breadcrumb breadcrumbTitle={breadcrumbTitle} />}
 
 				{children}

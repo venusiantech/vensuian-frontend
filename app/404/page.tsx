@@ -10,7 +10,7 @@ export default function NotFound() {
 				<section className="position-relative overflow-hidden box-latest-blog-3 box-latest-blog-12">
 					<div className="container">
 						<div className="text-center">
-							<img src="/assets/imgs/pages/404/404.png" alt="Vatech" className="mb-30" />
+							<img src="/assets/imgs/pages/404/404.png" alt="Venusian" className="mb-30" />
 							<h3 className="heading-inter-44 secondery-500 mb-4">Oops! Page Not Found.</h3>
 							<Link href="#" className="btn btn-primary-home btn-inter">Back to Home Page</Link>
 						</div>

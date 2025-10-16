@@ -19,11 +19,11 @@ export default function Section3() {
 							</a>
 							<div className="box-images-about">
 								<div className="images-about-1">
-									<img src="/assets/imgs/pages/home11/about.png" className="w-100" alt="Vatech" />
-									<img src="/assets/imgs/pages/home11/about2.png" className="w-100" alt="Vatech" />
+									<img src="/assets/imgs/pages/home11/about.png" className="w-100" alt="Venusian" />
+									<img src="/assets/imgs/pages/home11/about2.png" className="w-100" alt="Venusian" />
 								</div>
 								<div className="images-about-2">
-									<img src="/assets/imgs/pages/home11/about3.png" className="w-100" alt="Vatech" />
+									<img src="/assets/imgs/pages/home11/about3.png" className="w-100" alt="Venusian" />
 								</div>
 							</div>
 						</div>

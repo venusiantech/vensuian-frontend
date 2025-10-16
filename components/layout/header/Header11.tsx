@@ -6,9 +6,23 @@ export default function Header11({ scroll, isMobileMenu, handleMobileMenu, handl
 		<>
 
 			<header className="header-style-11">
-				<nav className={`navbar navbar-expand-lg navbar-light w-100 ${scroll ? 'navbar-stick position-fixed top-0' : ''}`}>
+				<nav className="navbar navbar-expand-lg navbar-light position-fixed" style={{
+					background: 'rgba(255, 255, 255, 0.95)',
+					backdropFilter: 'blur(20px)',
+					WebkitBackdropFilter: 'blur(20px)',
+					border: '1px solid rgba(255, 255, 255, 0.3)',
+					borderRadius: '20px',
+					margin: '20px 20px 0 20px',
+					width: 'calc(100% - 40px)',
+					transition: 'all 0.3s ease-in-out',
+					zIndex: 1000,
+					boxShadow: '0 8px 32px rgba(0, 0, 0, 0.15)',
+					padding: '8px 16px',
+					minHeight: '70px',
+					top: '0'
+				}}>
 					<div className="container-fluid">
-						<Link className="navbar-brand pe-4" href="/"><img src="/assets/imgs/template/venusian_whole.png" alt="" height={50} /></Link>
+						<Link className="navbar-brand pe-4" href="/"><img src="/assets/imgs/template/venusian_whole.png" alt="" height={40} /></Link>
 						<ul className="navbar-nav gap-1 align-items-lg-center m-auto">
 							<li className="nav-item ">
 								<Link className="nav-link fw-medium" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</Link>
@@ -94,7 +108,7 @@ export default function Header11({ scroll, isMobileMenu, handleMobileMenu, handl
 							<Link href="#" className="btn btn-primary-500-rounded d-none d-lg-inline-block">
 								Learn More
 							</Link>
-							<div className="header-need-help">
+							{/* <div className="header-need-help">
 								<div className="icon-phone">
 									<svg width={17} height={18} viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M15.9688 13.0938L15.2188 16.25C15.125 16.7188 14.75 17.0312 14.2812 17.0312C6.40625 17 0 10.5938 0 2.71875C0 2.25 0.28125 1.875 0.75 1.78125L3.90625 1.03125C4.34375 0.9375 4.8125 1.1875 5 1.59375L6.46875 5C6.625 5.40625 6.53125 5.875 6.1875 6.125L4.5 7.5C5.5625 9.65625 7.3125 11.4062 9.5 12.4688L10.875 10.7812C11.125 10.4688 11.5938 10.3438 12 10.5L15.4062 11.9688C15.8125 12.1875 16.0625 12.6562 15.9688 13.0938Z" fill="#0055FF" />
@@ -104,7 +118,7 @@ export default function Header11({ scroll, isMobileMenu, handleMobileMenu, handl
 									<h3 className="paragraph-rubik-r">Need help?</h3>
 									<h4 className="sub-heading-ag-sm">(808) 555-0111</h4>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</nav>
@@ -118,120 +132,31 @@ export default function Header11({ scroll, isMobileMenu, handleMobileMenu, handl
 						</button>
 					</div>
 					<div className="offCanvas__logo mb-20">
-						<Link href="/"><img src="/assets/imgs/template/logo3.svg" alt="Logo" /></Link>
+						<Link href="/"><img src="/assets/imgs/template/venusian_whole.png" alt="Venusian Logo" height={50} /></Link>
 					</div>
 					<div className="offCanvas__side-info mb-30">
 						<ul className="navbar-nav navbar-nav-mobile">
-							<li className="nav-item dropdown menu-item-has-children">
-								<Link className="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</Link>
-								<ul className="dropdown-menu">
-									<li><Link className="dropdown-item" href="/">Home page 1</Link></li>
-									<li><Link className="dropdown-item" href="/index-2">Home page 2</Link></li>
-									<li><Link className="dropdown-item" href="/index-3">Home page 3</Link></li>
-									<li><Link className="dropdown-item" href="/index-3">Home page 4</Link></li>
-									<li><Link className="dropdown-item" href="/index-3">Home page 5</Link></li>
-									<li><Link className="dropdown-item" href="/index-3">Home page 6</Link></li>
-									<li><Link className="dropdown-item" href="/index-3">Home page 7</Link></li>
-									<li><Link className="dropdown-item" href="/index-3">Home page 8</Link></li>
-									<li><Link className="dropdown-item" href="/index-3">Home page 9</Link></li>
-									<li><Link className="dropdown-item" href="/index-3">Home page 10</Link></li>
-									<li><Link className="dropdown-item" href="/index-3">Home page 11</Link></li>
-									<li><Link className="dropdown-item" href="/index-3">Home page 12</Link></li>
-									<li><Link className="dropdown-item" href="/index-3">Home page 13</Link></li>
-									<li><Link className="dropdown-item" href="/index-3">Home page 14</Link></li>
-									<li><Link className="dropdown-item" href="/index-3">Home page 15</Link></li>
-									<li><Link className="dropdown-item" href="/index-3">Home page 16</Link></li>
-								</ul>
+							<li className="nav-item">
+								<Link className="nav-link fw-medium" href="/">Home</Link>
 							</li>
-							<li className="nav-item dropdown menu-item-has-children">
-								<Link className="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</Link>
-								<ul className="dropdown-menu">
-									<li><Link className="dropdown-item" href="/about-us">About Us</Link></li>
-									<li><Link className="dropdown-item" href="/about-us-2">About Us 2</Link></li>
-									<li><Link className="dropdown-item" href="/about-us-3">About Us 3</Link></li>
-									<li><Link className="dropdown-item" href="/about-us-4">About Us 4</Link></li>
-								</ul>
+							<li className="nav-item">
+								<Link className="nav-link fw-medium" href="/about-us-4">About</Link>
 							</li>
-							<li className="nav-item dropdown menu-item-has-children">
-								<Link className="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</Link>
-								<ul className="dropdown-menu">
-									<li><Link className="dropdown-item" href="/services">Services 01</Link></li>
-									<li><Link className="dropdown-item" href="/services-2">Services 02</Link></li>
-									<li><Link className="dropdown-item" href="/services-3">Services 03</Link></li>
-									<li><Link className="dropdown-item" href="/services-4">Services 03</Link></li>
-									<li><Link className="dropdown-item" href="/service-detail">Service Details 01</Link></li>
-									<li><Link className="dropdown-item" href="/service-detail-2">Service Details 02</Link></li>
-									<li><Link className="dropdown-item" href="/service-detail-3">Service Details 03</Link></li>
-									<li><Link className="dropdown-item" href="/service-detail-4">Service Details 04</Link></li>
-								</ul>
+							<li className="nav-item">
+								<Link className="nav-link fw-medium" href="/services-4">Services</Link>
 							</li>
-							<li className="nav-item dropdown menu-item-has-children">
-								<Link className="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</Link>
-								<ul className="dropdown-menu">
-									<li><Link className="dropdown-item" href="/services">Project List</Link></li>
-									<li><Link className="dropdown-item" href="/services-2">Project Detail</Link></li>
-								</ul>
-							</li>
-							<li className="nav-item dropdown menu-item-has-children">
-								<Link className="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</Link>
-								<ul className="dropdown-menu">
-									<li><Link className="dropdown-item" href="/news-grid">News Grid</Link></li>
-									<li><Link className="dropdown-item" href="/news-grid-sidebar">News Grid Sidebar</Link></li>
-									<li><Link className="dropdown-item" href="/news-details">Blog Details</Link></li>
-								</ul>
-							</li>
-							<li className="nav-item dropdown menu-item-has-children">
-								<Link className="nav-link fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</Link>
-								<ul className="dropdown-menu">
-									<li><Link className="dropdown-item" href="/contact">Contact Us</Link></li>
-									<li><Link className="dropdown-item" href="/pricing">Pricing</Link></li>
-									<li><Link className="dropdown-item" href="/team">Team</Link></li>
-									<li><Link className="dropdown-item" href="/team-detail">Team Details</Link></li>
-									<li><Link className="dropdown-item" href="/faq">FAQs</Link></li>
-									<li><Link className="dropdown-item" href="/404">Error 404</Link></li>
-								</ul>
+							<li className="nav-item">
+								<Link className="nav-link fw-medium" href="/contact">Contact</Link>
 							</li>
 						</ul>
-					</div>
-					<div className="side-gallery mb-4">
-						<div className="pt-1" />
-						<h4 className="mt-3 mb-3">Gallery</h4>
-						<div className="grid-items">
-							<div className="zoom-img rounded-3 d-inline-flex overflow-hidden">
-								<img className="g-col-4" src="/assets/imgs/pages/offcanvas/gallery-1.png" alt="vatech" />
-							</div>
-							<div className="zoom-img rounded-3 d-inline-flex overflow-hidden">
-								<img className="g-col-4" src="/assets/imgs/pages/offcanvas/gallery-2.png" alt="vatech" />
-							</div>
-							<div className="zoom-img rounded-3 d-inline-flex overflow-hidden">
-								<img className="g-col-4" src="/assets/imgs/pages/offcanvas/gallery-3.png" alt="vatech" />
-							</div>
-							<div className="zoom-img rounded-3 d-inline-flex overflow-hidden">
-								<img className="g-col-4" src="/assets/imgs/pages/offcanvas/gallery-4.png" alt="vatech" />
-							</div>
-							<div className="zoom-img rounded-3 d-inline-flex overflow-hidden">
-								<img className="g-col-4" src="/assets/imgs/pages/offcanvas/gallery-5.png" alt="vatech" />
-							</div>
-							<div className="zoom-img rounded-3 d-inline-flex overflow-hidden">
-								<img className="g-col-4" src="/assets/imgs/pages/offcanvas/gallery-6.png" alt="vatech" />
-							</div>
-							<div className="zoom-img rounded-3 d-inline-flex overflow-hidden">
-								<img className="g-col-4" src="/assets/imgs/pages/offcanvas/gallery-7.png" alt="vatech" />
-							</div>
-							<div className="zoom-img rounded-3 d-inline-flex overflow-hidden">
-								<img className="g-col-4" src="/assets/imgs/pages/offcanvas/gallery-8.png" alt="vatech" />
-							</div>
-							<div className="zoom-img rounded-3 d-inline-flex overflow-hidden">
-								<img className="g-col-4" src="/assets/imgs/pages/offcanvas/gallery-9.png" alt="vatech" />
-							</div>
-						</div>
 					</div>
 					<div className="box-contactus mb-30">
 						<h5 className="title-contactus neutral-1000 mb-3">Contact Us</h5>
 						<div className="contact-info">
-							<p className="address-2 text-md-medium neutral-1000"><strong>Address: </strong>1285 Crescent Wellington Heights, Louisville, KY 40204</p>
-							<p className="hour-work-2 text-md-medium neutral-1000"><strong>Hours: </strong> 8:00 - 17:00, Mon - Sat</p>
-							<p className="hour-work-2 text-md-medium neutral-1000"><strong>Phone: </strong> 01 256 986 3</p>
+							<p className="address-2 text-md-medium neutral-1000"><strong>Address: </strong>Germany —785 15h Street, Office 478 Berlin, De 81566</p>
+							<p className="hour-work-2 text-md-medium neutral-1000"><strong>Hours: </strong>MON-FRI: 9 AM – 22 PM, SAT: 9 AM – 20 PM</p>
+							<p className="hour-work-2 text-md-medium neutral-1000"><strong>Phone: </strong>+1 (212) 621-5896</p>
+							<p className="hour-work-2 text-md-medium neutral-1000"><strong>Email: </strong>info@venusian.tech</p>
 						</div>
 					</div>
 				</div>

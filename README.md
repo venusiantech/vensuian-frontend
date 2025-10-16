@@ -1,3 +1,3 @@
-# vatech-nextjs
+# Venusian-nextjs
 
 # by alithemes.com

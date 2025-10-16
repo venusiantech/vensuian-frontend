@@ -217,7 +217,7 @@ export default function Pricing() {
 							<div className="col-lg-4 col-md-6 mb-4">
 								<div className="card-best-team">
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/home7/team.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/home7/team.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -248,7 +248,7 @@ export default function Pricing() {
 							<div className="col-lg-4 col-md-6 mb-4">
 								<div className="card-best-team">
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/home7/team2.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/home7/team2.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -279,7 +279,7 @@ export default function Pricing() {
 							<div className="col-lg-4 col-md-6 mb-4">
 								<div className="card-best-team">
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/home7/team3.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/home7/team3.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -310,28 +310,28 @@ export default function Pricing() {
 						</div>
 						<div className="box-logos-partner">
 							<div className="item-partner">
-								<img src="/assets/imgs/pages/home7/coinbase.svg" alt="Vatech" />
+								<img src="/assets/imgs/pages/home7/coinbase.svg" alt="Venusian" />
 							</div>
 							<div className="item-partner text-center">
-								<img src="/assets/imgs/pages/home7/invision.svg" alt="Vatech" />
+								<img src="/assets/imgs/pages/home7/invision.svg" alt="Venusian" />
 							</div>
 							<div className="item-partner text-center">
-								<img src="/assets/imgs/pages/home7/hellosign.svg" alt="Vatech" />
+								<img src="/assets/imgs/pages/home7/hellosign.svg" alt="Venusian" />
 							</div>
 							<div className="item-partner text-end">
-								<img src="/assets/imgs/pages/home7/dribbble.svg" alt="Vatech" />
+								<img src="/assets/imgs/pages/home7/dribbble.svg" alt="Venusian" />
 							</div>
 							<div className="item-partner">
-								<img src="/assets/imgs/pages/home7/treehouse.svg" alt="Vatech" />
+								<img src="/assets/imgs/pages/home7/treehouse.svg" alt="Venusian" />
 							</div>
 							<div className="item-partner text-center">
-								<img src="/assets/imgs/pages/home7/instagram.svg" alt="Vatech" />
+								<img src="/assets/imgs/pages/home7/instagram.svg" alt="Venusian" />
 							</div>
 							<div className="item-partner text-center">
-								<img src="/assets/imgs/pages/home7/doordash.svg" alt="Vatech" />
+								<img src="/assets/imgs/pages/home7/doordash.svg" alt="Venusian" />
 							</div>
 							<div className="item-partner text-end">
-								<img src="/assets/imgs/pages/home7/basecamp.svg" alt="Vatech" />
+								<img src="/assets/imgs/pages/home7/basecamp.svg" alt="Venusian" />
 							</div>
 						</div>
 					</div>
@@ -352,7 +352,7 @@ export default function Pricing() {
 									<div className="col-lg-4 col-md-6">
 										<div className="card-blog-7">
 											<div className="card-image">
-												<Link href="/news-details"><img src="/assets/imgs/pages/pricing/news.png" alt="Vatech" /></Link>
+												<Link href="/news-details"><img src="/assets/imgs/pages/pricing/news.png" alt="Venusian" /></Link>
 											</div>
 											<div className="card-info">
 												<div className="text-end mb-2">
@@ -371,7 +371,7 @@ export default function Pricing() {
 									<div className="col-lg-4 col-md-6">
 										<div className="card-blog-7">
 											<div className="card-image">
-												<Link href="/news-details"><img src="/assets/imgs/pages/pricing/news2.png" alt="Vatech" /></Link>
+												<Link href="/news-details"><img src="/assets/imgs/pages/pricing/news2.png" alt="Venusian" /></Link>
 											</div>
 											<div className="card-info">
 												<div className="text-end mb-2">
@@ -390,7 +390,7 @@ export default function Pricing() {
 									<div className="col-lg-4 col-md-6">
 										<div className="card-blog-7">
 											<div className="card-image">
-												<Link href="/news-details"><img src="/assets/imgs/pages/pricing/news3.png" alt="Vatech" /></Link>
+												<Link href="/news-details"><img src="/assets/imgs/pages/pricing/news3.png" alt="Venusian" /></Link>
 											</div>
 											<div className="card-info">
 												<div className="text-end mb-2">

@@ -34,7 +34,7 @@ export default function TeamDetail() {
 					<div className="container" data-aos="fade-up">
 						<div className="row mt-4">
 							<div className="col-lg-5 col-md-4 mb-4">
-								<img src="/assets/imgs/pages/team/team.png" className="w-100" alt="Vatech" />
+								<img src="/assets/imgs/pages/team/team.png" className="w-100" alt="Venusian" />
 							</div>
 							<div className="col-lg-7 col-md-8 mb-4">
 								<h1 className="heading-ag-3xl mb-3">Robert Fox</h1>

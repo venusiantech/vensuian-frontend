@@ -243,7 +243,7 @@ export default function Services4() {
 				<section className="position-relative overflow-hidden box-videos-services-4 mb-5">
 					<div className="box-videos-services-4-inner">
 						<div className="box-video">
-							<a onClick={() => setOpen(true)} className="popup-video"><img src="/assets/imgs/pages/home1/play.svg" alt="Vatech" /></a>
+							<a onClick={() => setOpen(true)} className="popup-video"><img src="/assets/imgs/pages/home1/play.svg" alt="Venusian" /></a>
 						</div>
 					</div>
 				</section>
@@ -301,7 +301,7 @@ export default function Services4() {
 											<SwiperSlide>
 												<div className="card-blog card-blog-2 card-blog-10">
 													<div className="card-image">
-														<Link href="#"><img className="wow img-custom-anim-top" src="/assets/imgs/pages/home11/news2.png" alt="Vatech" /></Link>
+														<Link href="#"><img className="wow img-custom-anim-top" src="/assets/imgs/pages/home11/news2.png" alt="Venusian" /></Link>
 														<span className="card-date">Business Consulting</span>
 													</div>
 													<div className="card-info">
@@ -323,7 +323,7 @@ export default function Services4() {
 											<SwiperSlide>
 												<div className="card-blog card-blog-2 card-blog-10">
 													<div className="card-image">
-														<Link href="#"><img className="wow img-custom-anim-top" src="/assets/imgs/pages/home11/news.png" alt="Vatech" /></Link>
+														<Link href="#"><img className="wow img-custom-anim-top" src="/assets/imgs/pages/home11/news.png" alt="Venusian" /></Link>
 														<span className="card-date">Insurance Consulting</span>
 													</div>
 													<div className="card-info">
@@ -345,7 +345,7 @@ export default function Services4() {
 											<SwiperSlide>
 												<div className="card-blog card-blog-2 card-blog-10">
 													<div className="card-image">
-														<Link href="#"><img className="wow img-custom-anim-top" src="/assets/imgs/pages/home11/news2.png" alt="Vatech" /></Link>
+														<Link href="#"><img className="wow img-custom-anim-top" src="/assets/imgs/pages/home11/news2.png" alt="Venusian" /></Link>
 														<span className="card-date">Business Consulting</span>
 													</div>
 													<div className="card-info">

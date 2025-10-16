@@ -34,7 +34,7 @@ export default function Section9() {
 										<SwiperSlide>
 											<div className="card-blog card-blog-2 card-blog-10">
 												<div className="card-image">
-													<Link href="#"><img className="wow img-custom-anim-top" src="/assets/imgs/pages/home11/news2.png" alt="Vatech" /></Link>
+													<Link href="#"><img className="wow img-custom-anim-top" src="/assets/imgs/pages/home11/news2.png" alt="Venusian" /></Link>
 													<span className="card-date">Business Consulting</span>
 												</div>
 												<div className="card-info">
@@ -56,7 +56,7 @@ export default function Section9() {
 										<SwiperSlide>
 											<div className="card-blog card-blog-2 card-blog-10">
 												<div className="card-image">
-													<Link href="#"><img className="wow img-custom-anim-top" src="/assets/imgs/pages/home11/news.png" alt="Vatech" /></Link>
+													<Link href="#"><img className="wow img-custom-anim-top" src="/assets/imgs/pages/home11/news.png" alt="Venusian" /></Link>
 													<span className="card-date">Insurance Consulting</span>
 												</div>
 												<div className="card-info">
@@ -78,7 +78,7 @@ export default function Section9() {
 										<SwiperSlide>
 											<div className="card-blog card-blog-2 card-blog-10">
 												<div className="card-image">
-													<Link href="#"><img className="wow img-custom-anim-top" src="/assets/imgs/pages/home11/news2.png" alt="Vatech" /></Link>
+													<Link href="#"><img className="wow img-custom-anim-top" src="/assets/imgs/pages/home11/news2.png" alt="Venusian" /></Link>
 													<span className="card-date">Business Consulting</span>
 												</div>
 												<div className="card-info">

@@ -36,7 +36,7 @@ export default function NewsGrid() {
 							<div className="col-lg-4 col-md-6">
 								<div className="card-blog-7">
 									<div className="card-image">
-										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog.png" alt="Vatech" /></Link>
+										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="text-end mb-2">
@@ -55,7 +55,7 @@ export default function NewsGrid() {
 							<div className="col-lg-4 col-md-6">
 								<div className="card-blog-7">
 									<div className="card-image">
-										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog2.png" alt="Vatech" /></Link>
+										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog2.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="text-end mb-2">
@@ -74,7 +74,7 @@ export default function NewsGrid() {
 							<div className="col-lg-4 col-md-6">
 								<div className="card-blog-7">
 									<div className="card-image">
-										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog3.png" alt="Vatech" /></Link>
+										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog3.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="text-end mb-2">
@@ -93,7 +93,7 @@ export default function NewsGrid() {
 							<div className="col-lg-4 col-md-6">
 								<div className="card-blog-7">
 									<div className="card-image">
-										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog4.png" alt="Vatech" /></Link>
+										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog4.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="text-end mb-2">
@@ -112,7 +112,7 @@ export default function NewsGrid() {
 							<div className="col-lg-4 col-md-6">
 								<div className="card-blog-7">
 									<div className="card-image">
-										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog5.png" alt="Vatech" /></Link>
+										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog5.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="text-end mb-2">
@@ -131,7 +131,7 @@ export default function NewsGrid() {
 							<div className="col-lg-4 col-md-6">
 								<div className="card-blog-7">
 									<div className="card-image">
-										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog6.png" alt="Vatech" /></Link>
+										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog6.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="text-end mb-2">
@@ -150,7 +150,7 @@ export default function NewsGrid() {
 							<div className="col-lg-4 col-md-6">
 								<div className="card-blog-7">
 									<div className="card-image">
-										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog7.png" alt="Vatech" /></Link>
+										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog7.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="text-end mb-2">
@@ -169,7 +169,7 @@ export default function NewsGrid() {
 							<div className="col-lg-4 col-md-6">
 								<div className="card-blog-7">
 									<div className="card-image">
-										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog8.png" alt="Vatech" /></Link>
+										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog8.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="text-end mb-2">
@@ -188,7 +188,7 @@ export default function NewsGrid() {
 							<div className="col-lg-4 col-md-6">
 								<div className="card-blog-7">
 									<div className="card-image">
-										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog9.png" alt="Vatech" /></Link>
+										<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog9.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="text-end mb-2">

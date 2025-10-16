@@ -35,7 +35,7 @@ export default function NewsDetails() {
 						<div className="blog-main-content">
 							<div className="blog-content-left">
 								<div className="blog-detail">
-									<img src="/assets/imgs/pages/blog/detail.png" alt="Vatech" />
+									<img src="/assets/imgs/pages/blog/detail.png" alt="Venusian" />
 									<p>Architecture design involves many different aspect, such as spatial planning, materials selection, construction techniques, and environmental considerations. Architects must consider the practical requirements of a building, such as its intended use, structural integrity, and safety, as well as its aesthetic qualities, such as form, color, and texture.</p>
 									<h6>Now let’s set another scene — one that’s a bit less overwhelming.</h6>
 									<p>A workday as organized as the second one is actually possible. &amp; there’s one major thing that’ll get you from chaos to smooth sailing in your design workflow: project management. Here are seven ways to stay organized and on top of your projects.</p>
@@ -43,7 +43,7 @@ export default function NewsDetails() {
 									<p>In addition to designing buildings, architects may also be involved in urban planning, landscape architecture, and interior design. They may work in a variety of settings, including architectural firms, construction companies, government agencies, and academic institutions. Architects are professionals who specialize in designing buildings and other physical structures. They work with clients to understand their needs and preferences, and then use their expertise to create a design.</p>
 									<div className="row align-items-center">
 										<div className="col-lg-6">
-											<img src="/assets/imgs/pages/blog/detail2.jpg" alt="Vatech" />
+											<img src="/assets/imgs/pages/blog/detail2.jpg" alt="Venusian" />
 										</div>
 										<div className="col-lg-6">
 											<h3 className="heading-ag-lg">Tip #1: Record the process for repeat tasks.</h3>
@@ -78,7 +78,7 @@ export default function NewsDetails() {
 										<li>
 											<div className="item-feedback">
 												<div className="image-feedback">
-													<img src="/assets/imgs/pages/blog/author.png" alt="Vatech" />
+													<img src="/assets/imgs/pages/blog/author.png" alt="Venusian" />
 												</div>
 												<div className="info-feedback">
 													<div className="name-user">Tromas H. Hendson <span>June 9, 2023</span></div>
@@ -96,7 +96,7 @@ export default function NewsDetails() {
 												<li>
 													<div className="item-feedback">
 														<div className="image-feedback">
-															<img src="/assets/imgs/pages/blog/author2.png" alt="Vatech" />
+															<img src="/assets/imgs/pages/blog/author2.png" alt="Venusian" />
 														</div>
 														<div className="info-feedback">
 															<div className="name-user">Rosalina D. <span>June 10, 2023</span></div>
@@ -118,7 +118,7 @@ export default function NewsDetails() {
 										<li>
 											<div className="item-feedback">
 												<div className="image-feedback">
-													<img src="/assets/imgs/pages/blog/author3.png" alt="Vatech" />
+													<img src="/assets/imgs/pages/blog/author3.png" alt="Venusian" />
 												</div>
 												<div className="info-feedback">
 													<div className="name-user">Miranda H. Halim <span>June 9, 2023</span></div>
@@ -141,7 +141,7 @@ export default function NewsDetails() {
 											<h4 className="paragraph-rubik-md-b">Add Feedback &amp; Reviews</h4>
 										</div>
 										<div className="title-form-right mb-4">
-											<img src="/assets/imgs/pages/blog/star.png" alt="Vatech" />
+											<img src="/assets/imgs/pages/blog/star.png" alt="Venusian" />
 										</div>
 									</div>
 									<div className="form-feedback">
@@ -195,7 +195,7 @@ export default function NewsDetails() {
 									<ul className="recent-news-list-md">
 										<li>
 											<div className="news-image">
-												<Link href="/news-details"><img src="/assets/imgs/pages/blog/recent.png" alt="Vatech" /></Link>
+												<Link href="/news-details"><img src="/assets/imgs/pages/blog/recent.png" alt="Venusian" /></Link>
 											</div>
 											<div className="news-info">
 												<div className="news-postdate">
@@ -209,7 +209,7 @@ export default function NewsDetails() {
 										</li>
 										<li>
 											<div className="news-image">
-												<Link href="/news-details"><img src="/assets/imgs/pages/blog/recent2.png" alt="Vatech" /></Link>
+												<Link href="/news-details"><img src="/assets/imgs/pages/blog/recent2.png" alt="Venusian" /></Link>
 											</div>
 											<div className="news-info">
 												<div className="news-postdate">
@@ -223,7 +223,7 @@ export default function NewsDetails() {
 										</li>
 										<li>
 											<div className="news-image">
-												<Link href="/news-details"><img src="/assets/imgs/pages/blog/recent3.png" alt="Vatech" /></Link>
+												<Link href="/news-details"><img src="/assets/imgs/pages/blog/recent3.png" alt="Venusian" /></Link>
 											</div>
 											<div className="news-info">
 												<div className="news-postdate">

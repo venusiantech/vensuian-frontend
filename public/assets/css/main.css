@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*===========
-   Theme Name: Vatech - Technology Solutions & Business HTML Template
+   Theme Name: Venusian - Technology Solutions & Business HTML Template
    Author : alithemes
    Support: https://alithemes.ticksy.com
    Version: 1.0
@@ -165,10 +165,10 @@ Table of contents
 	--tc-primary-800: #002266;
 	--tc-primary-900: #001133;
 	--tc-primary-950: #00091a;
-	--tc-primary-home: #b91202;
-	--tc-primary-home-2: #df2a19;
-	--tc-primary-home-3: #fc0012;
-	--tc-primary-home-4: #ba1111;
+	--tc-primary-home: #1cbbb4;
+	--tc-primary-home-2: #1fb795;
+	--tc-primary-home-3: #2ab882;
+	--tc-primary-home-4: #2cb881;
 	--tc-primary-1000: #1cbbb4;
 	--tc-primary-1100: #f2f9ff;
 	--tc-primary-1200: #1fb795;
@@ -8093,7 +8093,7 @@ header {
 }
 
 .navbar-green .btn-primary-home {
-	background-image: linear-gradient(to right, #1ab69d, #31b978);
+	background-image: linear-gradient(to right, #1cbbb4, #1fb795);
 }
 
 .navbar-blue .btn-primary-home {
@@ -11151,7 +11151,7 @@ h6 {
 }
 
 .button-color {
-	background-image: linear-gradient(to right, #31b978, #1ab69d);
+	background-image: linear-gradient(to right, #1cbbb4, #1fb795);
 }
 
 .primary-500 {

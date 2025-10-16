@@ -27,16 +27,16 @@ export default function Section8() {
 									<SwiperSlide>
 										<div className="card-testimonials-2 card-testimonials-8">
 											<div className="rating">
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
 											</div>
 											<div className="comment-text sub-heading-ag-md dark-950">What truly sets Digitec apart is their strategic approach. They took the time to fully comprehend our industry, target audience, and unique value proposition.</div>
 											<div className="card-author">
 												<div className="author-image">
-													<img src="/assets/imgs/pages/home11/author.png" alt="Vatech" />
+													<img src="/assets/imgs/pages/home11/author.png" alt="Venusian" />
 												</div>
 												<div className="author-info">
 													<h5 className="sub-heading-ag-xl dark-950">Dianne Russell</h5>
@@ -48,16 +48,16 @@ export default function Section8() {
 									<SwiperSlide>
 										<div className="card-testimonials-2 card-testimonials-8">
 											<div className="rating">
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
 											</div>
 											<div className="comment-text sub-heading-ag-md dark-950">What truly sets Digitec apart is their strategic approach. They took the time to fully comprehend our industry, target audience, and unique value proposition.</div>
 											<div className="card-author">
 												<div className="author-image">
-													<img src="/assets/imgs/pages/home11/author2.png" alt="Vatech" />
+													<img src="/assets/imgs/pages/home11/author2.png" alt="Venusian" />
 												</div>
 												<div className="author-info">
 													<h5 className="sub-heading-ag-xl dark-950">Dianne Russell</h5>
@@ -69,16 +69,16 @@ export default function Section8() {
 									<SwiperSlide>
 										<div className="card-testimonials-2 card-testimonials-8">
 											<div className="rating">
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
 											</div>
 											<div className="comment-text sub-heading-ag-md dark-950">What truly sets Digitec apart is their strategic approach. They took the time to fully comprehend our industry, target audience, and unique value proposition.</div>
 											<div className="card-author">
 												<div className="author-image">
-													<img src="/assets/imgs/pages/home11/author3.png" alt="Vatech" />
+													<img src="/assets/imgs/pages/home11/author3.png" alt="Venusian" />
 												</div>
 												<div className="author-info">
 													<h5 className="sub-heading-ag-xl dark-950">Dianne Russell</h5>
@@ -90,16 +90,16 @@ export default function Section8() {
 									<SwiperSlide>
 										<div className="card-testimonials-2 card-testimonials-8">
 											<div className="rating">
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
-												<img src="/assets/imgs/pages/home8/star.svg" alt="Vatech" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
+												<img src="/assets/imgs/pages/home8/star.svg" alt="Venusian" />
 											</div>
 											<div className="comment-text sub-heading-ag-md dark-950">What truly sets Digitec apart is their strategic approach. They took the time to fully comprehend our industry, target audience, and unique value proposition.</div>
 											<div className="card-author">
 												<div className="author-image">
-													<img src="/assets/imgs/pages/home11/author.png" alt="Vatech" />
+													<img src="/assets/imgs/pages/home11/author.png" alt="Venusian" />
 												</div>
 												<div className="author-info">
 													<h5 className="sub-heading-ag-xl dark-950">Dianne Russell</h5>

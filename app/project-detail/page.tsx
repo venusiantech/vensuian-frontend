@@ -32,7 +32,7 @@ export default function ProjectDetail() {
 					<div className="container" data-aos="fade-up">
 						<div className="row">
 							<div className="col-lg-7 mb-4">
-								<img src="/assets/imgs/pages/project/detail.png" alt="Vatech" />
+								<img src="/assets/imgs/pages/project/detail.png" alt="Venusian" />
 							</div>
 							<div className="col-lg-5 mb-4 position-relative">
 								<div className="right-project-detail">

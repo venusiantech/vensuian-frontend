@@ -39,7 +39,7 @@ export default function NewsGridSidebar() {
 										<div className="col-lg-6 col-md-6">
 											<div className="card-blog-7">
 												<div className="card-image">
-													<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog.png" alt="Vatech" /></Link>
+													<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<div className="text-end mb-2">
@@ -58,7 +58,7 @@ export default function NewsGridSidebar() {
 										<div className="col-lg-6 col-md-6">
 											<div className="card-blog-7">
 												<div className="card-image">
-													<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog2.png" alt="Vatech" /></Link>
+													<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog2.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<div className="text-end mb-2">
@@ -77,7 +77,7 @@ export default function NewsGridSidebar() {
 										<div className="col-lg-6 col-md-6">
 											<div className="card-blog-7">
 												<div className="card-image">
-													<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog4.png" alt="Vatech" /></Link>
+													<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog4.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<div className="text-end mb-2">
@@ -96,7 +96,7 @@ export default function NewsGridSidebar() {
 										<div className="col-lg-6 col-md-6">
 											<div className="card-blog-7">
 												<div className="card-image">
-													<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog5.png" alt="Vatech" /></Link>
+													<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog5.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<div className="text-end mb-2">
@@ -115,7 +115,7 @@ export default function NewsGridSidebar() {
 										<div className="col-lg-6 col-md-6">
 											<div className="card-blog-7">
 												<div className="card-image">
-													<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog7.png" alt="Vatech" /></Link>
+													<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog7.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<div className="text-end mb-2">
@@ -134,7 +134,7 @@ export default function NewsGridSidebar() {
 										<div className="col-lg-6 col-md-6">
 											<div className="card-blog-7">
 												<div className="card-image">
-													<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog8.png" alt="Vatech" /></Link>
+													<Link href="/news-details"><img src="/assets/imgs/pages/blog/blog8.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<div className="text-end mb-2">
@@ -203,7 +203,7 @@ export default function NewsGridSidebar() {
 									<ul className="recent-news-list-md">
 										<li>
 											<div className="news-image">
-												<Link href="/news-details"><img src="/assets/imgs/pages/home6/blog.png" alt="Vatech" /></Link>
+												<Link href="/news-details"><img src="/assets/imgs/pages/home6/blog.png" alt="Venusian" /></Link>
 											</div>
 											<div className="news-info">
 												<div className="news-postdate">
@@ -217,7 +217,7 @@ export default function NewsGridSidebar() {
 										</li>
 										<li>
 											<div className="news-image">
-												<Link href="/news-details"><img src="/assets/imgs/pages/home6/blog.png" alt="Vatech" /></Link>
+												<Link href="/news-details"><img src="/assets/imgs/pages/home6/blog.png" alt="Venusian" /></Link>
 											</div>
 											<div className="news-info">
 												<div className="news-postdate">
@@ -231,7 +231,7 @@ export default function NewsGridSidebar() {
 										</li>
 										<li>
 											<div className="news-image">
-												<Link href="/news-details"><img src="/assets/imgs/pages/home6/blog.png" alt="Vatech" /></Link>
+												<Link href="/news-details"><img src="/assets/imgs/pages/home6/blog.png" alt="Venusian" /></Link>
 											</div>
 											<div className="news-info">
 												<div className="news-postdate">

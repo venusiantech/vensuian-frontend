@@ -64,8 +64,8 @@ export default function Footer11() {
 										<div className="d-flex flex-column align-items-start">
 											<Link className="hover-effect paragraph-base grey-100 pt-4" href="#">Company</Link>
 											<Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Careers</Link>
-											<Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Press media</Link>
-											<Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Our Blog</Link>
+											{/* <Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Press media</Link> */}
+											{/* <Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Our Blog</Link> */}
 											<Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Privacy Policy</Link>
 										</div>
 									</div>
@@ -82,11 +82,11 @@ export default function Footer11() {
 									<div className="col-lg-3 col-md-6">
 										<h3 className="text-footer pb-1">Company</h3>
 										<div className="d-flex flex-column align-items-start">
-											<Link className="hover-effect paragraph-base grey-100 pt-4" href="#">How it’s Work</Link>
+											{/* <Link className="hover-effect paragraph-base grey-100 pt-4" href="#">How it’s Work</Link> */}
 											<Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Partners</Link>
-											<Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Testimonials</Link>
-											<Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Case Studies</Link>
-											<Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Pricing</Link>
+											{/* <Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Testimonials</Link> */}
+											{/* <Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Case Studies</Link> */}
+											{/* <Link className="hover-effect paragraph-base grey-100 pt-2" href="#">Pricing</Link> */}
 										</div>
 									</div>
 									<div className="col-lg-3 col-md-6">
@@ -99,18 +99,18 @@ export default function Footer11() {
 												<span className="color-white-70 paragraph-rubik-r">997-889-0987</span>
 											</p>
 											<p className="text-inline">
-												<Link href="/mailto:support@realco.com">
+												<Link href="/mailto:info@venusian.tech">
 													<svg className="me-2" width={26} height={26} viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 														<path d="M23.251 3.91016H2.86043C2.42664 3.91016 2.07617 4.25947 2.07617 4.69184V20.3256C2.07617 20.758 2.42664 21.1073 2.86043 21.1073H23.251C23.6848 21.1073 24.0353 20.758 24.0353 20.3256V4.69184C24.0353 4.25947 23.6848 3.91016 23.251 3.91016ZM22.2707 6.61675V19.3485H3.84075V6.61675L3.16433 6.09155L4.12749 4.85795L5.17643 5.6714H20.9375L21.9864 4.85795L22.9496 6.09155L22.2707 6.61675V6.61675ZM20.9375 5.66895L13.0557 11.7759L5.17398 5.66895L4.12504 4.85551L3.16187 6.08911L3.83829 6.61431L12.2102 13.1023C12.451 13.2887 12.7472 13.39 13.0521 13.39C13.3569 13.39 13.6531 13.2887 13.8939 13.1023L22.2707 6.61675L22.9472 6.09155L21.984 4.85795L20.9375 5.66895Z" fill="white" />
 													</svg>
-													<span className="color-white-70 paragraph-rubik-r">support@realco.com</span>
+													<span className="color-white-70 paragraph-rubik-r">info@venusian.tech</span>
 												</Link>
 											</p>
 											<p className="text-inline">
 												<svg className="me-3" width={19} height={23} viewBox="0 0 19 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path d="M17.9441 6.06212C17.4827 5.00166 16.8174 4.04151 15.9859 3.23583C15.1516 2.42287 14.1681 1.77764 13.089 1.33535C11.9666 0.871225 10.7755 0.636719 9.54763 0.636719C8.31978 0.636719 7.12869 0.871225 6.00623 1.33291C4.92052 1.77994 3.94756 2.41994 3.10938 3.23339C2.27838 4.03952 1.61321 4.99956 1.1512 6.05968C0.673293 7.15893 0.430664 8.32657 0.430664 9.52842C0.430664 11.253 0.844849 12.9703 1.65851 14.6265C2.31288 15.9578 3.22702 17.2549 4.3789 18.4885C6.34689 20.5942 8.41046 21.8815 8.9962 22.226C9.16246 22.3238 9.35208 22.3753 9.54518 22.375C9.73634 22.375 9.92505 22.3261 10.0942 22.226C10.6799 21.8815 12.7435 20.5942 14.7115 18.4885C15.8633 17.2574 16.7775 15.9578 17.4318 14.6265C18.2504 12.9727 18.6646 11.2579 18.6646 9.53086C18.6646 8.32901 18.422 7.16137 17.9441 6.06212ZM9.54763 20.5014C7.93255 19.4778 2.19524 15.4253 2.19524 9.53086C2.19524 7.62794 2.95744 5.83983 4.34214 4.49142C5.73174 3.14056 7.57964 2.39552 9.54763 2.39552C11.5156 2.39552 13.3635 3.14056 14.7531 4.49386C16.1378 5.83983 16.9 7.62794 16.9 9.53086C16.9 15.4253 11.1627 19.4778 9.54763 20.5014ZM9.54763 5.42456C7.16545 5.42456 5.23423 7.34946 5.23423 9.72384C5.23423 12.0982 7.16545 14.0231 9.54763 14.0231C11.9298 14.0231 13.861 12.0982 13.861 9.72384C13.861 7.34946 11.9298 5.42456 9.54763 5.42456ZM11.4887 11.6585C11.2341 11.913 10.9315 12.1148 10.5984 12.2523C10.2653 12.3898 9.90818 12.4603 9.54763 12.4597C8.81484 12.4597 8.12616 12.1739 7.6066 11.6585C7.35128 11.4048 7.14882 11.1032 7.01086 10.7712C6.87291 10.4391 6.80217 10.0832 6.80273 9.72384C6.80273 8.99345 7.08948 8.30703 7.6066 7.78916C8.12616 7.27129 8.81484 6.98793 9.54763 6.98793C10.2804 6.98793 10.9691 7.27129 11.4887 7.78916C12.0082 8.30703 12.2925 8.99345 12.2925 9.72384C12.2925 10.4542 12.0082 11.1406 11.4887 11.6585Z" fill="white" />
 												</svg>
-												<span className="color-white-70 paragraph-rubik-r">Alison Street,10090,Canada</span>
+												<span className="color-white-70 paragraph-rubik-r">Sharjah, UAE</span>
 											</p>
 										</div>
 									</div>
@@ -125,11 +125,11 @@ export default function Footer11() {
 							<div className="footer-bottom">
 								<div className="row paragraph-base">
 									<div className="col-sm-6 col-12 text-center text-md-start">
-										<div className="small color-white">Copyright © Vatech {new Date().getFullYear()} . Alright Reserved.</div>
+										<div className="small color-white">Copyright © Venusian {new Date().getFullYear()} . Alright Reserved.</div>
 									</div>
-									<div className="col-sm-6 col-12 d-flex justify-content-center justify-content-md-end">
+									{/* <div className="col-sm-6 col-12 d-flex justify-content-center justify-content-md-end">
 										<p className="color-white">Designed By <Link className="text-white" href="https://alithemes.com" target="_blank">Alithemes</Link></p>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>

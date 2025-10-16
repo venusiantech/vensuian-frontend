@@ -107,7 +107,7 @@ export default function Faq() {
 								</div>
 								<div className="col-md-6">
 									<div className="box-video-center ps-3">
-										<img src="/assets/imgs/pages/faq/faq.png" alt="Vatech" />
+										<img src="/assets/imgs/pages/faq/faq.png" alt="Venusian" />
 										<a onClick={() => setOpen(true)} className="btn btn-play popup-video">
 											<svg width={24} height={28} viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M21.957 11.3164C22.7773 11.8438 23.3047 12.7812 23.3047 13.7188C23.3047 14.7148 22.7773 15.6523 21.957 16.1211L5.08203 26.4336C4.20312 26.9609 3.08984 27.0195 2.21094 26.4922C1.33203 26.0234 0.804688 25.0859 0.804688 24.0312V3.40625C0.804688 2.41016 1.33203 1.47266 2.21094 1.00391C3.08984 0.476562 4.20312 0.476562 5.08203 1.0625L21.957 11.3164Z" fill="currentColor" />
@@ -126,7 +126,7 @@ export default function Faq() {
 						<div className="box-numbers">
 							<div className="item-number">
 								<div className="item-number-image">
-									<img src="/assets/imgs/pages/home5/client.png" alt="Vatech" />
+									<img src="/assets/imgs/pages/home5/client.png" alt="Venusian" />
 								</div>
 								<div className="item-numner-info">
 									<h3 className="heading-ag-3xl"><CountUp className="odometer" enableScrollSpy={true} end={10} /><span className="d-inline-block align-middle">+</span></h3>
@@ -135,7 +135,7 @@ export default function Faq() {
 							</div>
 							<div className="item-number">
 								<div className="item-number-image">
-									<img src="/assets/imgs/pages/home5/client.png" alt="Vatech" />
+									<img src="/assets/imgs/pages/home5/client.png" alt="Venusian" />
 								</div>
 								<div className="item-numner-info">
 									<h3 className="heading-ag-3xl"><CountUp className="odometer" enableScrollSpy={true} end={10} /><span className="d-inline-block align-middle">+</span></h3>
@@ -144,7 +144,7 @@ export default function Faq() {
 							</div>
 							<div className="item-number">
 								<div className="item-number-image">
-									<img src="/assets/imgs/pages/home5/client.png" alt="Vatech" />
+									<img src="/assets/imgs/pages/home5/client.png" alt="Venusian" />
 								</div>
 								<div className="item-numner-info">
 									<h3 className="heading-ag-3xl"><CountUp className="odometer" enableScrollSpy={true} end={20} /><span className="d-inline-block align-middle">+</span></h3>
@@ -153,7 +153,7 @@ export default function Faq() {
 							</div>
 							<div className="item-number">
 								<div className="item-number-image">
-									<img src="/assets/imgs/pages/home5/client.png" alt="Vatech" />
+									<img src="/assets/imgs/pages/home5/client.png" alt="Venusian" />
 								</div>
 								<div className="item-numner-info">
 									<h3 className="heading-ag-3xl"><CountUp className="odometer" enableScrollSpy={true} end={20} /><span className="d-inline-block align-middle">+</span></h3>

@@ -36,7 +36,7 @@ export default function Team() {
 							<div className="col-lg-4 col-md-6 mb-4">
 								<div className="card-best-team hover-up" data-aos="fade-up" data-aos-duration={0}>
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/team/team-1.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/team/team-1.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -67,7 +67,7 @@ export default function Team() {
 							<div className="col-lg-4 col-md-6 mb-4">
 								<div className="card-best-team hover-up" data-aos="fade-up" data-aos-duration={500}>
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/team/team-2.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/team/team-2.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -98,7 +98,7 @@ export default function Team() {
 							<div className="col-lg-4 col-md-6 mb-4">
 								<div className="card-best-team hover-up" data-aos="fade-up" data-aos-duration={1000}>
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/team/team-3.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/team/team-3.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -129,7 +129,7 @@ export default function Team() {
 							<div className="col-lg-4 col-md-6 mb-4">
 								<div className="card-best-team hover-up" data-aos="fade-up" data-aos-duration={0}>
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/team/team-4.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/team/team-4.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -160,7 +160,7 @@ export default function Team() {
 							<div className="col-lg-4 col-md-6 mb-4">
 								<div className="card-best-team hover-up" data-aos="fade-up" data-aos-duration={500}>
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/team/team-5.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/team/team-5.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -191,7 +191,7 @@ export default function Team() {
 							<div className="col-lg-4 col-md-6 mb-4">
 								<div className="card-best-team hover-up" data-aos="fade-up" data-aos-duration={1000}>
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/team/team-6.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/team/team-6.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -222,7 +222,7 @@ export default function Team() {
 							<div className="col-lg-4 col-md-6 mb-4">
 								<div className="card-best-team hover-up" data-aos="fade-up" data-aos-duration={0}>
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/team/team-7.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/team/team-7.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -253,7 +253,7 @@ export default function Team() {
 							<div className="col-lg-4 col-md-6 mb-4">
 								<div className="card-best-team hover-up" data-aos="fade-up" data-aos-duration={500}>
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/team/team-8.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/team/team-8.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">
@@ -284,7 +284,7 @@ export default function Team() {
 							<div className="col-lg-4 col-md-6 mb-4">
 								<div className="card-best-team hover-up" data-aos="fade-up" data-aos-duration={1000}>
 									<div className="card-image">
-										<Link href="#"><img src="/assets/imgs/pages/team/team-1.png" alt="Vatech" /></Link>
+										<Link href="#"><img src="/assets/imgs/pages/team/team-1.png" alt="Venusian" /></Link>
 									</div>
 									<div className="card-info">
 										<div className="card-info-left">

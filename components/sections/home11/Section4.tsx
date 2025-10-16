@@ -43,7 +43,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -55,7 +55,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study2.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study2.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -67,7 +67,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study3.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study3.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -79,7 +79,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study4.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study4.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -91,7 +91,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -125,7 +125,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -137,7 +137,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study2.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study2.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -149,7 +149,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study3.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study3.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -161,7 +161,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study4.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study4.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -173,7 +173,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -207,7 +207,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -219,7 +219,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study2.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study2.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -231,7 +231,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study3.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study3.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -243,7 +243,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study4.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study4.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -255,7 +255,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -289,7 +289,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -301,7 +301,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study2.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study2.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -313,7 +313,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study3.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study3.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -325,7 +325,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study4.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study4.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -337,7 +337,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -371,7 +371,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -383,7 +383,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study2.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study2.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -395,7 +395,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study3.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study3.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -407,7 +407,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study4.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study4.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
@@ -419,7 +419,7 @@ export default function Section4() {
 										<SwiperSlide>
 											<div className="card-case-study-2">
 												<div className="card-image">
-													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Vatech" /></Link>
+													<Link href="#"><img src="/assets/imgs/pages/home11/study.png" alt="Venusian" /></Link>
 												</div>
 												<div className="card-info">
 													<Link href="#">
