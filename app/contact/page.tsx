@@ -1,7 +1,86 @@
+"use client"
+
 import Header11 from "@/components/layout/header/Header11"	
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import { useState, FormEvent } from "react"
+
 export default function Contact() {
+	const [formData, setFormData] = useState({
+		name: "",
+		email: "",
+		phone: "",
+		note: "",
+		message: ""
+	})
+	const [isLoading, setIsLoading] = useState(false)
+	const [submitStatus, setSubmitStatus] = useState<{
+		type: "success" | "error" | null
+		message: string
+	}>({ type: null, message: "" })
+
+	const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+		const { name, value } = e.target
+		setFormData(prev => ({
+			...prev,
+			[name]: value
+		}))
+		// Clear status when user starts typing
+		if (submitStatus.type) {
+			setSubmitStatus({ type: null, message: "" })
+		}
+	}
+
+	const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+		e.preventDefault()
+		setIsLoading(true)
+		setSubmitStatus({ type: null, message: "" })
+
+		try {
+			const serverUrl = process.env.NEXT_PUBLIC_SERVER_URL
+			if (!serverUrl) {
+				throw new Error("Server URL is not configured")
+			}
+
+			const response = await fetch(`${serverUrl}/api/contact`, {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json",
+				},
+				body: JSON.stringify(formData),
+			})
+
+			const data = await response.json()
+
+			if (!response.ok) {
+				throw new Error(data.message || "Failed to submit contact form")
+			}
+
+			if (data.success) {
+				setSubmitStatus({
+					type: "success",
+					message: data.message || "Contact form submitted successfully!"
+				})
+				// Reset form
+				setFormData({
+					name: "",
+					email: "",
+					phone: "",
+					note: "",
+					message: ""
+				})
+			} else {
+				throw new Error(data.message || "Failed to submit contact form")
+			}
+		} catch (error) {
+			setSubmitStatus({
+				type: "error",
+				message: error instanceof Error ? error.message : "An error occurred. Please try again."
+			})
+		} finally {
+			setIsLoading(false)
+		}
+	}
 
 	return (
 		<>
@@ -38,7 +117,7 @@ export default function Contact() {
 						<div className="row">
 							<div className="col-lg-5">
 								<div className="">
-										<h3 className="heading-ag-xl color-white mb-3">Company info</h3>
+										<h3 className="heading-ag-xl mb-3">Company info</h3>
 									<div className="paragraph-rubik-md-r color-black mb-4">Venusian - Technology Solutions & Business</div>
 									<p className="sub-heading-ag-xl color-black mb-4">
 										<img src="/assets/imgs/pages/contact/email.png" alt="Email" className="me-3" />
@@ -56,48 +135,106 @@ export default function Contact() {
 							</div>
 							<div className="col-lg-7">
 								<div className="form-contact-us">
-									<form action="#">
+									<form onSubmit={handleSubmit}>
+										{submitStatus.type && (
+											<div className={`alert ${submitStatus.type === "success" ? "alert-success" : "alert-danger"} mb-4`} role="alert">
+												{submitStatus.message}
+											</div>
+										)}
 										<div className="row">
 											<div className="col-md-12">
 												<div className="form-group">
-													<input type="text" className="form-control user" placeholder="Your name" />
+													<input 
+														type="text" 
+														className="form-control user" 
+														placeholder="Your Name" 
+														name="name"
+														value={formData.name}
+														onChange={handleChange}
+														required
+													/>
 												</div>
 											</div>
 											<div className="col-md-12">
 												<div className="form-group">
-													<input type="text" className="form-control email" placeholder="Your name" />
+													<input 
+														type="email" 
+														className="form-control email" 
+														placeholder="Your Email" 
+														name="email"
+														value={formData.email}
+														onChange={handleChange}
+														required
+													/>
 												</div>
 											</div>
 											<div className="col-md-6">
 												<div className="form-group">
-													<input type="text" className="form-control phone" placeholder="Your name" />
+													<input 
+														type="tel" 
+														className="form-control phone" 
+														placeholder="Your Phone" 
+														name="phone"
+														value={formData.phone}
+														onChange={handleChange}
+														required
+													/>
 												</div>
 											</div>
 											<div className="col-md-6">
 												<div className="form-group">
-													<input type="text" className="form-control note" placeholder="Your name" />
+													<input 
+														type="text" 
+														className="form-control note" 
+														placeholder="Your Note" 
+														name="note"
+														value={formData.note}
+														onChange={handleChange}
+														required
+													/>
 												</div>
 											</div>
 											<div className="col-md-12 mt-5 pt-3">
 												<div className="form-group">
-													<input type="text" className="form-control message" placeholder="Your name" />
+													<textarea 
+														className="form-control message" 
+														placeholder="Your Message" 
+														name="message"
+														value={formData.message}
+														onChange={handleChange}
+														rows={5}
+														required
+													/>
 												</div>
 											</div>
 											<div className="col-md-12">
 												<div className="form-group mt-5">
-													<button type="submit" className="btn btn-primary-home-square">
-														<svg className="me-2" width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<g clipPath="url(#clip0_4249_28840)">
-																<path d="M8.75 17.6113V22.2493C8.75 22.5733 8.958 22.8603 9.266 22.9623C9.343 22.9873 9.422 22.9993 9.5 22.9993C9.734 22.9993 9.96 22.8893 10.104 22.6933L12.817 19.0013L8.75 17.6113Z" fill="white" />
-																<path d="M23.685 0.139089C23.455 -0.0239114 23.153 -0.0459114 22.903 0.0850886L0.403045 11.8351C0.137044 11.9741 -0.0199555 12.2581 0.00204448 12.5571C0.0250445 12.8571 0.224045 13.1131 0.507045 13.2101L6.76205 15.3481L20.083 3.95809L9.77505 16.3771L20.258 19.9601C20.336 19.9861 20.418 20.0001 20.5 20.0001C20.636 20.0001 20.771 19.9631 20.89 19.8911C21.08 19.7751 21.209 19.5801 21.242 19.3611L23.992 0.861089C24.033 0.581089 23.915 0.303089 23.685 0.139089Z" fill="white" />
-															</g>
-															<defs>
-																<clipPath id="clip0_4249_28840">
-																	<rect width={24} height={24} fill="white" />
-																</clipPath>
-															</defs>
-														</svg>
-														GET IN TOUCH
+													<button 
+														type="submit" 
+														className="btn btn-primary-home-square"
+														disabled={isLoading}
+													>
+														{isLoading ? (
+															<>
+																<span className="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
+																Submitting...
+															</>
+														) : (
+															<>
+																<svg className="me-2" width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<g clipPath="url(#clip0_4249_28840)">
+																		<path d="M8.75 17.6113V22.2493C8.75 22.5733 8.958 22.8603 9.266 22.9623C9.343 22.9873 9.422 22.9993 9.5 22.9993C9.734 22.9993 9.96 22.8893 10.104 22.6933L12.817 19.0013L8.75 17.6113Z" fill="white" />
+																		<path d="M23.685 0.139089C23.455 -0.0239114 23.153 -0.0459114 22.903 0.0850886L0.403045 11.8351C0.137044 11.9741 -0.0199555 12.2581 0.00204448 12.5571C0.0250445 12.8571 0.224045 13.1131 0.507045 13.2101L6.76205 15.3481L20.083 3.95809L9.77505 16.3771L20.258 19.9601C20.336 19.9861 20.418 20.0001 20.5 20.0001C20.636 20.0001 20.771 19.9631 20.89 19.8911C21.08 19.7751 21.209 19.5801 21.242 19.3611L23.992 0.861089C24.033 0.581089 23.915 0.303089 23.685 0.139089Z" fill="white" />
+																	</g>
+																	<defs>
+																		<clipPath id="clip0_4249_28840">
+																			<rect width={24} height={24} fill="white" />
+																		</clipPath>
+																	</defs>
+																</svg>
+																GET IN TOUCH
+															</>
+														)}
 													</button>
 												</div>
 											</div>

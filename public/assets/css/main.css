@@ -13880,22 +13880,26 @@ h6 {
 	background-image: url(../imgs/pages/home5/user.svg);
 	background-repeat: no-repeat;
 	background-position: right 20px center;
+	color: #000;
 }
 
 .form-contact .form-control.phone {
 	background-image: url(../imgs/pages/home5/phone.svg);
 	background-repeat: no-repeat;
 	background-position: right 20px center;
+	color: #000;
 }
 
 .form-contact .form-control.email {
 	background-image: url(../imgs/pages/home5/email.svg);
 	background-repeat: no-repeat;
 	background-position: right 20px center;
+	color: #000;
 }
 
 .form-contact textarea.form-control {
 	height: auto;
+	color: #000;
 }
 
 .footer-style-4 {
