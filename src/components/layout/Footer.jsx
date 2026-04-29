@@ -82,8 +82,6 @@ export default function Footer() {
               <ul className="space-y-3 text-sm text-white/70">
                 <li><Link to="/privacy" className="hover:text-white">Privacy</Link></li>
                 <li><Link to="/terms" className="hover:text-white">Terms</Link></li>
-                <li><a href="/sitemap.xml" className="hover:text-white">Sitemap</a></li>
-                <li><a href="/llms.txt" className="hover:text-white">llms.txt</a></li>
               </ul>
             </div>
           </div>
@@ -92,8 +90,8 @@ export default function Footer() {
         <div className="mt-16 grid sm:grid-cols-3 gap-6 border-t border-white/10 pt-8">
           {[
             { city: "Dubai", region: "UAE — Headquarters" },
-            { city: "Amsterdam", region: "EU" },
-            { city: "New York", region: "US" },
+            { city: "Montenegro", region: "EU" },
+            { city: "Florida", region: "US" },
           ].map((l) => (
             <div key={l.city} className="flex items-start gap-3 text-sm text-white/70">
               <MapPin className="h-4 w-4 mt-0.5 text-emerald-400" />
@@ -106,7 +104,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-white/50">
-          <p>© {year} Venusian Technologies FZ-LLC. All rights reserved.</p>
+          <p>© {year} Venusian. All rights reserved.</p>
           <a href="mailto:hello@venusian.tech" className="inline-flex items-center gap-2 hover:text-white">
             <Mail className="h-3.5 w-3.5" /> hello@venusian.tech
           </a>
