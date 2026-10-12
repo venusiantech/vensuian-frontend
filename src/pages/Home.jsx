@@ -9,6 +9,7 @@ import {
 import { BRAND } from "@/lib/brand";
 import { api } from "@/lib/api";
 import useDocumentTitle from "@/lib/useDocumentTitle";
+import SecurityAudit from "@/components/sections/SecurityAudit";
 
 const ICONS = { Sparkles, Globe, Smartphone, Gauge, Layers, TrendingUp };
 
@@ -52,6 +53,7 @@ export default function Home() {
       <Hero />
       <TickerStrip />
       <ServicesSection services={services} />
+      <SecurityAudit />
       <CodeShowcase />
       <EcosystemSection products={products} />
       <CapabilitiesSection />

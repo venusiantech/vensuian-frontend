@@ -5,11 +5,12 @@ import {
 } from "lucide-react";
 import { api } from "@/lib/api";
 import useDocumentTitle from "@/lib/useDocumentTitle";
+import SecurityAudit from "@/components/sections/SecurityAudit";
 
 const ICONS = { Sparkles, Globe, Smartphone, Gauge, Layers, TrendingUp };
 
 export default function Services() {
-  useDocumentTitle("Services", "Specialist teams for AI automation, web, mobile, and performance engineering.");
+  useDocumentTitle("Services", "Specialist teams for AI automation, web, mobile, performance engineering, and forensic security audits.");
   const [items, setItems] = useState([]);
   useEffect(() => { api.get("/services").then((r) => setItems(r.data.items)); }, []);
 
@@ -28,7 +29,10 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="py-20 lg:py-28">
+      {/* Above the API-loaded grid so the #security-audit anchor doesn't shift after load */}
+      <SecurityAudit bordered={false} />
+
+      <section className="py-20 lg:py-28 border-t border-white/10">
         <div className="mx-auto max-w-7xl px-6 lg:px-12 grid lg:grid-cols-2 gap-5">
           {items.map((s) => {
             const Icon = ICONS[s.icon] || Sparkles;

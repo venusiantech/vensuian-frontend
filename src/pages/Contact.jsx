@@ -1,19 +1,25 @@
 import { useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { ArrowRight, Check, Mail, MapPin, Phone } from "lucide-react";
 import { api } from "@/lib/api";
 import { toast } from "sonner";
 import useDocumentTitle from "@/lib/useDocumentTitle";
 
 const STEPS = ["You", "Project", "Details"];
-const SERVICES = ["AI Automation", "Web", "Mobile", "Performance", "Custom Platform", "Growth"];
+const SERVICES = ["AI Automation", "Web", "Mobile", "Performance", "Security Audit", "Custom Platform", "Growth"];
 const BUDGETS = ["< $25k", "$25k–$75k", "$75k–$200k", "$200k+"];
+
+// ?service=<key> preselects a service, e.g. from the security audit CTA
+const SERVICE_PARAMS = { "security-audit": "Security Audit" };
 
 export default function Contact() {
   useDocumentTitle("Contact", "Tell us about your project. Senior partners respond within one business day.");
+  const [params] = useSearchParams();
+  const preset = SERVICE_PARAMS[params.get("service")];
   const [step, setStep] = useState(0);
   const [form, setForm] = useState({
     name: "", email: "", company: "", phone: "",
-    services: [], budget: "", message: "", consent: false,
+    services: preset ? [preset] : [], budget: "", message: "", consent: false,
   });
   const [submitting, setSubmitting] = useState(false);
   const [done, setDone] = useState(false);

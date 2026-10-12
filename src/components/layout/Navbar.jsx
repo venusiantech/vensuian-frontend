@@ -15,7 +15,7 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  useEffect(() => { setOpen(false); }, [loc.pathname]);
+  useEffect(() => { setOpen(false); }, [loc.pathname, loc.hash]);
 
   return (
     <header
@@ -31,7 +31,7 @@ export default function Navbar() {
             <span className="font-display text-lg lg:text-xl font-bold tracking-tight">VENUSIAN</span>
           </Link>
 
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
             {NAV_LINKS.map((l) => (
               <Link
                 key={l.to}

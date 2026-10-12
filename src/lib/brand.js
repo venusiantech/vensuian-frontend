@@ -11,6 +11,7 @@ export const BRAND = {
 
 export const NAV_LINKS = [
   { label: "Services", to: "/services" },
+  { label: "Security", to: "/services#security-audit" },
   { label: "Products", to: "/products" },
   { label: "Ecosystem", to: "/ecosystem" },
   { label: "Case Studies", to: "/case-studies" },
