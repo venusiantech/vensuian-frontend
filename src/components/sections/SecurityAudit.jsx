@@ -27,6 +27,17 @@ const CAPABILITIES = [
     d: "Gap analysis against GDPR, ISO 27001, and SOC 2, with an evidence pack your auditor can use." },
 ];
 
+// Roadmap entry for the Services page — same shape as /api/services items
+export const SECURITY_SERVICE = {
+  slug: "security-audit",
+  icon: "ShieldAlert",
+  title: "Forensic Security Audit",
+  summary: "Breach scans, penetration testing, and digital forensics. We find out whether you've been compromised, how it happened, and exactly what to fix.",
+  deliverables: CAPABILITIES.map((c) => c.t),
+  cta: "/contact?service=security-audit",
+  ctaLabel: "Book a security audit",
+};
+
 const STEPS = [
   { k: "01", t: "Scope", d: "Agree targets, access, and rules of engagement under NDA." },
   { k: "02", t: "Scan & hunt", d: "Breach scans, vulnerability tests, and threat hunting." },
@@ -49,13 +60,12 @@ const SEVERITY = {
   low: "border-sky-500/40 bg-sky-500/10 text-sky-300",
 };
 
-/* Forensic security audit offering — shared by Home and Services (anchor: #security-audit) */
-export default function SecurityAudit({ bordered = true }) {
+/* Forensic security audit section for the Home page */
+export default function SecurityAudit() {
   return (
     <section
-      id="security-audit"
       data-testid="security-audit"
-      className={`relative py-24 lg:py-32 overflow-hidden scroll-mt-16 lg:scroll-mt-20 ${bordered ? "border-t border-white/10" : ""}`}
+      className="relative py-24 lg:py-32 border-t border-white/10 overflow-hidden"
     >
       <div className="absolute inset-0 bg-grid opacity-20 pointer-events-none" />
       <div className="relative mx-auto max-w-7xl px-6 lg:px-12">
